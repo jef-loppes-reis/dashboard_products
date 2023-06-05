@@ -20,9 +20,21 @@ O Dashboard products tem o principal objetivo em mostrar as situacoes de todos o
 ```mermaid
 graph LR;
 
-A[Iniciar]-->B[Estrutura os dados]
-B-->C[Preenche DataFrame Operações]
-C-->D[Finaliza DataFrame Opereções]
+A[Consulta Banco de Dados]-->B[(Banco de Dados)]
+
+B-->C[DataSet Compra]
+B-->D[DataSet Nota de Compra]
+B-->E[DataSet DataChegou]
+B-->F[DataSet Produtos]
+B-->G[DataSet MercadoLivre]
+
+C-->H[Merge e Tratamento de Dados]
+D-->H[Merge e Tratamento de Dados]
+E-->H[Merge e Tratamento de Dados]
+F-->H[Merge e Tratamento de Dados]
+G-->H[Merge e Tratamento de Dados]
+
+H-->I[DataFrame final Dashboard]
 
 ```
 

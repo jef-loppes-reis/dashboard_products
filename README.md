@@ -42,10 +42,11 @@ H-->I[DataFrame final Dashboard]
 
 ## :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: Requisita toda as informacoes dos anúncios do Seller MercadoLivre, via API.
-- `Funcionalidade 2`: Consulta o preco e estoque atual da empresa. Via banco de dados, plataforma POSTGRES.
-- `Funcionalidade 2a`: Compara preco e estoque atual com o antigo, realizando as próximas requisições na API. Depois atualiza o banco de dados com as novas informacoes.
-- `Funcionalidade 3`: Realiza reciclagem em anúncios muitos antigos.
+- `Funcionalidade 1`: QTD de SKUs distintos com pedido de compra ou em estoque no grupo.
+- `Funcionalidade 2`: QTD SKUs com pedido de compra ou em estoque no grupo, que tem fotos Vs. que não tem fotos.
+- `Funcionalidade 3`: QTD SKUs com pedido de compra ou em estoque no grupo que tem fotos, e estão cadastrados Vs. que não estão cadastrados.
+- `Funcionalidade 4`: Tabela com SKUs em estoque ou com pedido de compra, que não tem fotos, acompanhado de sua marca.
+- `Funcionalidade 5`: Tabela com SKUs em estoque ou com pedido de compra, que tem fotos e não estão cadastrados.
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/E-commerce-Pecista/sales_operations).

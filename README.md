@@ -58,5 +58,5 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/E-c
 
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/88293401?v=4" width=115><br><sub>Jeferson Lopes Reis</sub>](https://github.com/jef-loppes-reis) | [<img src="https://avatars.githubusercontent.com/u/62766923?v=4" width=115><br><sub>Lucas Pereira Pires</sub>](https://github.com/l-pires) |
-| :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/88293401?v=4" width=115><br><sub>Jeferson Lopes Reis</sub>](https://github.com/jef-loppes-reis) |
+| :---: |

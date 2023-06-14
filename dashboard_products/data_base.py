@@ -27,6 +27,7 @@ def dados_produtos_siac() -> pd.DataFrame:
     FROM "D-1".produto
     INNER JOIN "D-1".grupo
     ON "D-1".produto.codgru = "D-1".grupo.codgru
+    WHERE codfor != '04615'
     ''')
     df_products_siac['embala'] = df_products_siac.embala.replace(0,1)
     return df_products_siac
@@ -39,7 +40,7 @@ def dados_estoque_grupo_siac() -> pd.DataFrame:
     return df_storage_group
 
 def dados_fotos() -> pd.DataFrame:
-    df_photos_products = pd.read_excel('C:/Users/jeferson.lopes/Documents/Python/projects-with-doc/infos_skus/data/photos_by_codpro_2023_05_29.xlsx', dtype=str)
+    df_photos_products = pd.read_excel('C:/Users/jefer/Documents/Python/dashboard_products/data/photos_by_codpro_2023_05_29.xlsx', dtype=str)
     return df_photos_products
 
 def verify_photo(df_merge_products_storage_photos:pd.DataFrame, df1:pd.DataFrame) -> pd.DataFrame:

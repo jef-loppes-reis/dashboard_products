@@ -2,3 +2,5 @@
 *.csv
 *.xlsx
 .venv/
+/dev
+*/__pycache__

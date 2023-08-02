@@ -1,1 +1,1 @@
-from dashboard_products import *
+from modules import *

@@ -1,5 +1,5 @@
 import pandas as pd
-from modules.postgres import Postgres
+from ecomm import Postgres
 from tqdm import tqdm
 
 
